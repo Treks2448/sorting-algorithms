@@ -17,10 +17,6 @@ def merge_sort(A, p, r):
                 A[k] = rhs[j]
                 j += 1
 
-    # if abs(p - r) == 2:
-    #     if A[p] > A[r]:
-    #         swap(A, p, r)
-
     if p == r:
         return
     else:
